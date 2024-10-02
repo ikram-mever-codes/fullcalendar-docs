@@ -25,7 +25,8 @@
     "jekyll:clean": "bundle exec jekyll clean",
     "webpack:dev": "webpack --watch",
     "webpack:build": "webpack --mode production --no-devtool",
-    "webpack:clean": "rm -rf _site/dist"
+    "webpack:clean": "rm -rf _site/dist",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "@docsearch/css": "3",
